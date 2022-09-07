@@ -1,20 +1,20 @@
 --=======SETUP=======--
 webhooks = {
-  ["LINK"]  = '',
+  ["LINK"]  = 'https://discord.com/api/webhooks/1016344127094403122/2fpU640ycUyRbVpNE8BRHmPwnyYhhWe4S0UQR_1h6RU8I1K9R1DQA9rZiv4THEO0uveb',
   ["EDIT"]  = false
 }
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
-  ["Loop"] = true,
+  ["World"] = {"UIWHM"},
+  ["Door"] = "NAUASU12",
+  ["Loop"] = false,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "FOODLAUT",
+                ["Door"] = "PACK",       --Mode 1
+                ["Path_Seed"] = 6390,
+                ["Path_Pack"] = 954
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -29,7 +29,7 @@ bot_config = {
 }
 ------------------------
 bot_mode = {
-  ["Block"] = 5666,
+  ["Block"] = 4584,
   ["Type"] = 'fg',
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
@@ -54,7 +54,7 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {

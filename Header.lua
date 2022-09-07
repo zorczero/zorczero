@@ -32,7 +32,7 @@ bot_mode = {
   ["Block"] = 4584,
   ["Type"] = 'fg',
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
-  ["Coordinate_Break"] = {2,1}
+  ["Coordinate_Break"] = {3,1}
 }
 ------------------------
 bot_environment = {

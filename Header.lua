@@ -1,22 +1,22 @@
 bot_raw = {}
 ---======================---
-bot_raw["NAMEBOT1"] = {
+bot_raw["rotasirival1"] = {
 webhooks = {
-  ["LINK"]  = '',
+  ["https://discord.com/api/webhooks/1016891366183288893/pwf7bGfZavkb7M2yO338dcOuH2JTmoDlwbiiKeOrLnrgPHvE9xRHc6Ia1FO62ICtuYgG"]  = '',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
-  ["Loop"] = true,
+  ["World"] = {"ITNVE","XRNRF","ASSVK","KMBFARM3","O2LIM","MRYMC66","BCMBO","FAKAFA7","SATAKILO","FGJVN","JAWQP","NDUWY"},
+  ["Door"] = 'QBFGXZVRWMJ',
+  ["Loop"] = false,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS",       --Mode 1
+                ["Path_Seed"] = 5044,
+                ["Path_Pack"] = 5040
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -33,7 +33,7 @@ bot_config = {
 bot_mode = {
   ["Block"] = 5666,
   ["Type"] = 'fg',
-  ["Ignore Gems"] = false, --Ignore Gems When Harvesting
+  ["Ignore Gems"] = true, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
 ------------------------
@@ -44,10 +44,10 @@ bot_environment = {
               },
   ["Buy"] = {
             ["Mode"] = true,
-            ["Name"] = 'world_lock',
+            ["Name"] = 'surgical_kit',
             ["Price"] = 2000,
-            ["Item_List"] = {242},
-            ["Limit"] = 3,
+            ["Item_List"] = {1270, 4316, 4310, 1258, 4312, 4318, 4308, 1260, 1268, 4314, 1264, 1266, 1262,4296},
+            ["Limit"] = 5,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
@@ -56,8 +56,8 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
-            ["Ignore"] = {"Ignored_Name"}
+            ["Mode"] = false,
+            ["Ignore"] = {"ZORCZERO"}
             },
   ["Leave"] = {
             ["Mode"] = true,
@@ -67,23 +67,23 @@ bot_environment = {
 }
 }
 
-bot_raw["NAMEBOT2"] = {
+bot_raw["rotasirival2"] = {BOTRIVAL3#
   webhooks = {
-  ["LINK"]  = '',
+  ["LINK"]  = 'https://discord.com/api/webhooks/1017605015260635267/9DGwExM0TsuvAFQRCCD_f0ZZbuRHPmxryGEjvC23M8yPWpUa3-7t1zAj5cAIADpIbvpW',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
+  ["World"] = {"UHCGV","WAWSV","QSWXV","RELWT","XMCNO","VGTAZ","PEDTOQ","XBYGA","WEYQ2","ANOQK","DAHBB","MBVRN"},
   ["Door"] = 'FARM_ID',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS",       --Mode 1
+                ["Path_Seed"] = 5044,
+                ["Path_Pack"] = 5040
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -111,10 +111,10 @@ bot_environment = {
               },
   ["Buy"] = {
             ["Mode"] = true,
-            ["Name"] = 'world_lock',
-            ["Price"] = 2000,
-            ["Item_List"] = {242},
-            ["Limit"] = 3,
+            ["Name"] = 'surgical_kit',
+            ["Price"] = 45000,
+            ["Item_List"] = {1270, 4316, 4310, 1258, 4312, 4318, 4308, 1260, 1268, 4314, 1264, 1266, 1262,4296},
+            ["Limit"] = 5,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
@@ -123,7 +123,7 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {

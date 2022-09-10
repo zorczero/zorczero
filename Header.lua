@@ -1,22 +1,22 @@
 bot_raw = {}
 ---======================---
-bot_raw["NAMEBOT1"] = {
+bot_raw["rotasirival1"] = {
 webhooks = {
-  ["LINK"]  = '',
-  ["EDIT"]  = false
+  ["LINK"]  = 'https://discord.com/api/webhooks/1016891366183288893/pwf7bGfZavkb7M2yO338dcOuH2JTmoDlwbiiKeOrLnrgPHvE9xRHc6Ia1FO62ICtuYgG',
+  ["EDIT"]  = true
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
+  ["World"] = {"UHCGV","WAWSV","QSWXV","RELWT","XMCNO","VGTAZ","PEDTOQ","XBYGA","WEYQ2","ANOQK","DAHBB","MBVRN"},
+  ["Door"] = 'QBFGXZVRWMJ',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS1",       --Mode 1
+                ["Path_Seed"] = 5044,
+                ["Path_Pack"] = 5040
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -33,7 +33,7 @@ bot_config = {
 bot_mode = {
   ["Block"] = 5666,
   ["Type"] = 'fg',
-  ["Ignore Gems"] = false, --Ignore Gems When Harvesting
+  ["Ignore Gems"] = true, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
 ------------------------
@@ -44,9 +44,9 @@ bot_environment = {
               },
   ["Buy"] = {
             ["Mode"] = true,
-            ["Name"] = 'world_lock',
-            ["Price"] = 2000,
-            ["Item_List"] = {242},
+            ["Name"] = 'surgical_tools_value_pack',
+            ["Price"] = 45000,
+            ["Item_List"] = {1270, 4316, 4310, 1258, 4312, 4318, 4308, 1260, 1268, 4314, 1264, 1266, 1262,4296},
             ["Limit"] = 3,
             ["When"] = {
                         ["Harvest"] = true,
@@ -56,7 +56,7 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {

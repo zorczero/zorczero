@@ -67,23 +67,23 @@ bot_environment = {
 }
 }
 
-bot_raw[""] = {
+bot_raw["NAMEBOT2"] = {
   webhooks = {
   ["LINK"]  = '',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {""},
+  ["World"] = {"FARM1"},
   ["Door"] = 'FARM_ID',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "",
-                ["Door"] = "",       --Mode 1
-                ["Path_Seed"] = ,
-                ["Path_Pack"] = 
+                ["World"] = "World_Save",
+                ["Door"] = "Door_ID",       --Mode 1
+                ["Path_Seed"] = 20,
+                ["Path_Pack"] = 12
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -111,10 +111,10 @@ bot_environment = {
               },
   ["Buy"] = {
             ["Mode"] = true,
-            ["Name"] = '',
-            ["Price"] = ,
-            ["Item_List"] = {},
-            ["Limit"] = 5,
+            ["Name"] = 'world_lock',
+            ["Price"] = 2000,
+            ["Item_List"] = {242},
+            ["Limit"] = 3,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
@@ -123,7 +123,7 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = false,
+            ["Mode"] = true,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {

@@ -3,7 +3,7 @@ bot_raw = {}
 bot_raw["rotasirival1"] = {
 webhooks = {
   ["LINK"]  = 'https://discord.com/api/webhooks/1016891366183288893/pwf7bGfZavkb7M2yO338dcOuH2JTmoDlwbiiKeOrLnrgPHvE9xRHc6Ia1FO62ICtuYgG',
-  ["EDIT"]  = true
+  ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
@@ -33,7 +33,7 @@ bot_config = {
 bot_mode = {
   ["Block"] = 5666,
   ["Type"] = 'fg',
-  ["Ignore Gems"] = false, --Ignore Gems When Harvesting
+  ["Ignore Gems"] = true, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
 ------------------------

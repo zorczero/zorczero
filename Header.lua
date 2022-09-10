@@ -1,6 +1,6 @@
 bot_raw = {}
 ---======================---
-bot_raw["rotasirival1"] = {
+bot_raw["rotasirival2"] = {
 webhooks = {
   ["LINK"]  = 'https://discord.com/api/webhooks/1016891366183288893/pwf7bGfZavkb7M2yO338dcOuH2JTmoDlwbiiKeOrLnrgPHvE9xRHc6Ia1FO62ICtuYgG',
   ["EDIT"]  = false

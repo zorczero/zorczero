@@ -33,7 +33,7 @@ bot_config = {
 bot_mode = {
   ["Block"] = 5666,
   ["Type"] = 'fg',
-  ["Ignore Gems"] = true, --Ignore Gems When Harvesting
+  ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
 ------------------------
@@ -46,7 +46,7 @@ bot_environment = {
             ["Mode"] = true,
             ["Name"] = 'surgical_tools_value_pack',
             ["Price"] = 45000,
-            ["Item_List"] = {1270, 4316, 4310, 1258, 4312, 4318, 4308, 1260, 1268, 4314, 1264, 1266, 1262,4296},
+            ["Item_List"] = {1270, 4316, 4310, 1258, 4312, 4318, 4308, 1260, 1268, 4314, 1264, 1266, 1262, 4296, 1098, 1058, 1096, 1094, 7058, 1828, 10228},
             ["Limit"] = 2,
             ["When"] = {
                         ["Harvest"] = true,
@@ -67,23 +67,23 @@ bot_environment = {
 }
 }
 
-bot_raw["NAMEBOT2"] = {
+bot_raw["rotasirival3"] = {
   webhooks = {
-  ["LINK"]  = '',
+  ["LINK"]  = 'https://discord.com/api/webhooks/1017605015260635267/9DGwExM0TsuvAFQRCCD_f0ZZbuRHPmxryGEjvC23M8yPWpUa3-7t1zAj5cAIADpIbvpW',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
+  ["World"] = {"ITNVE","XRNRF","ASSVK","KMBFARM3","O2LIM","MRYMC66","BCMBO","FAKAFA7","SATAKILO","FGJVN","JAWQP","NDUWY"},
+  ["Door"] = 'QBFGXZVRW3X',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "World_Save",
-                ["Door"] = "Door_ID",       --Mode 1
-                ["Path_Seed"] = 20,
-                ["Path_Pack"] = 12
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS1",       --Mode 1
+                ["Path_Seed"] = 5044,
+                ["Path_Pack"] = 5040
               },
               {
                 ["World_Pack"] = "World_Save_Pack",
@@ -111,9 +111,9 @@ bot_environment = {
               },
   ["Buy"] = {
             ["Mode"] = true,
-            ["Name"] = 'world_lock',
-            ["Price"] = 2000,
-            ["Item_List"] = {242},
+            ["Name"] = 'surgical_tools_value_pack',
+            ["Price"] = 45000,
+            ["Item_List"] = {1270, 4316, 4310, 1258, 4312, 4318, 4308, 1260, 1268, 4314, 1264, 1266, 1262, 4296, 1098, 1058, 1096, 1094, 7058, 1828, 10228},
             ["Limit"] = 3,
             ["When"] = {
                         ["Harvest"] = true,
@@ -123,7 +123,7 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {

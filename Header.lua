@@ -75,7 +75,7 @@ bot_raw["rotasirival3"] = {
 -----------------------
 bot_config = {
   ["World"] = {"ITNVE","XRNRF","ASSVK","KMBFARM3","O2LIM","MRYMC66","BCMBO","FAKAFA7","SATAKILO","FGJVN","JAWQP","NDUWY"},
-  ["Door"] = 'QBFGXZVRW3X',
+  ["Door"] = 'QBFGXZVRWMJ',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {

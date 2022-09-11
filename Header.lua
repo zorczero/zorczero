@@ -7,9 +7,9 @@ webhooks = {
 },
 -----------------------
 bot_config = {
-  ["World"] = {"ITNVE","XRNRF","ASSVK","KMBFARM3","O2LIM","MRYMC66","BCMBO","FAKAFA7","SATAKILO","FGJVN","JAWQP","NDUWY},
-  ["Door"] = 'QBFGXZVRW3X',
+  ["World"] = {"ITNVE","XRNRF","ASSVK","KMBFARM3","O2LIM","MRYMC66","BCMBO","FAKAFA7","SATAKILO","FGJVN","JAWQP","NDUWY","UHCGV","WAWSV","QSWXV","RELWT","XMCNO","VGYAZ","PEDTOQ","XBYGA","WEYQ2","ANOQK","DAHBB","MBVRN"},
   ["Loop"] = false,
+  ["Door"] = 'QBFGXZVRW3X',
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
@@ -33,8 +33,16 @@ bot_config = {
 bot_mode = {
   ["Block"] = 5666,
   ["Type"] = 'fg',
+  ["Tile_Hit"] = 5,
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
+},
+------------------------
+event = {
+  ["Anti_Toxic_Waste"] = true,
+  ["Event"] = true,
+  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
+  ["Limit"] = 100
 },
 ------------------------
 bot_environment = {
@@ -74,7 +82,7 @@ bot_raw["rotasirival3"] = {
 },
 -----------------------
 bot_config = {
-  ["World"] = {"UHCGV","WAWSV","QSWXV","RELWT","XMCNO","VGYAZ","PEDTOQ","XBYGA","WEYQ2","ANOQK","DAHBB","MBVRN"},
+  ["World"] = {"ITNVE","XRNRF","ASSVK","KMBFARM3","O2LIM","MRYMC66","BCMBO","FAKAFA7","SATAKILO","FGJVN","JAWQP","NDUWY","UHCGV","WAWSV","QSWXV","RELWT","XMCNO","VGYAZ","PEDTOQ","XBYGA","WEYQ2","ANOQK","DAHBB","MBVRN"},
   ["Door"] = 'QBFGXZVRW3X',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
@@ -100,8 +108,16 @@ bot_config = {
 bot_mode = {
   ["Block"] = 5666,
   ["Type"] = 'fg',
+  ["Tile_Hit"] = 5,
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
+},
+------------------------
+event = {
+  ["Anti_Toxic_Waste"] = true,
+  ["Event"] = true,
+  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
+  ["Limit"] = 100
 },
 ------------------------
 bot_environment = {

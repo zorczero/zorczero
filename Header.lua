@@ -35,7 +35,7 @@ bot_mode = {
   ["Type"] = 'fg',
   ["Tile_Hit"] = 5,
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
-  ["Coordinate_Break"] = {2,1}
+  ["Coordinate_Break"] = {3,2}
 },
 ------------------------
 event = {
@@ -110,7 +110,7 @@ bot_mode = {
   ["Type"] = 'fg',
   ["Tile_Hit"] = 5,
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
-  ["Coordinate_Break"] = {2,1}
+  ["Coordinate_Break"] = {3,2}
 },
 ------------------------
 event = {

@@ -40,9 +40,14 @@ bot_mode = {
 ------------------------
 event = {
   ["Anti_Toxic_Waste"] = true,
-  ["Event"] = true,
-  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
-  ["Limit"] = 100
+  ["Event"] = false,
+  ["Item_Event"] = {},
+  ["Limit"] = 100,
+  ["World"] = {
+                ["World"] = "EVENT SAVE",
+                ["Door"] = "ID EVENT SAVE",
+                ["Path"] = 20
+              }
 },
 ------------------------
 bot_environment = {
@@ -62,10 +67,13 @@ bot_environment = {
                         ["Break"]   = true
                        }
             },
-  ["Jammer"] = true,
+  ["Jammer"] = {
+                ["Mode"] = false,
+                ["Coordinate"] = {15,1} --RGT Coordinate
+                },
   ["Ban"] = {
             ["Mode"] = false,
-            ["Ignore"] = {"ZORCZERO"}
+            ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {
             ["Mode"] = true,
@@ -115,9 +123,14 @@ bot_mode = {
 ------------------------
 event = {
   ["Anti_Toxic_Waste"] = true,
-  ["Event"] = true,
-  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
-  ["Limit"] = 100
+  ["Event"] = false,
+  ["Item_Event"] = {},
+  ["Limit"] = 100,
+  ["World"] = {
+                ["World"] = "EVENT SAVE",
+                ["Door"] = "ID EVENT SAVE",
+                ["Path"] = 20
+              }
 },
 ------------------------
 bot_environment = {
@@ -137,7 +150,10 @@ bot_environment = {
                         ["Break"]   = true
                        }
             },
-  ["Jammer"] = true,
+ ["Jammer"] = {
+                ["Mode"] = false,
+                ["Coordinate"] = {15,1} --RGT Coordinate
+                },
   ["Ban"] = {
             ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
@@ -190,9 +206,14 @@ bot_mode = {
 ------------------------
 event = {
   ["Anti_Toxic_Waste"] = true,
-  ["Event"] = true,
-  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
-  ["Limit"] = 100
+  ["Event"] = false,
+  ["Item_Event"] = {},
+  ["Limit"] = 100,
+  ["World"] = {
+                ["World"] = "EVENT SAVE",
+                ["Door"] = "ID EVENT SAVE",
+                ["Path"] = 20
+              }
 },
 ------------------------
 bot_environment = {
@@ -212,7 +233,10 @@ bot_environment = {
                         ["Break"]   = true
                        }
             },
-  ["Jammer"] = true,
+  ["Jammer"] = {
+                ["Mode"] = false,
+                ["Coordinate"] = {15,1} --RGT Coordinate
+                },
   ["Ban"] = {
             ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
@@ -265,9 +289,14 @@ bot_mode = {
 ------------------------
 event = {
   ["Anti_Toxic_Waste"] = true,
-  ["Event"] = true,
-  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
-  ["Limit"] = 100
+  ["Event"] = false,
+  ["Item_Event"] = {},
+  ["Limit"] = 100,
+  ["World"] = {
+                ["World"] = "EVENT SAVE",
+                ["Door"] = "ID EVENT SAVE",
+                ["Path"] = 20
+              }
 },
 ------------------------
 bot_environment = {
@@ -287,7 +316,10 @@ bot_environment = {
                         ["Break"]   = true
                        }
             },
-  ["Jammer"] = true,
+ ["Jammer"] = {
+                ["Mode"] = false,
+                ["Coordinate"] = {15,1} --RGT Coordinate
+                },
   ["Ban"] = {
             ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
@@ -299,3 +331,4 @@ bot_environment = {
               }
 }
 }
+

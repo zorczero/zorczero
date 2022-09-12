@@ -41,12 +41,12 @@ bot_mode = {
 event = {
   ["Anti_Toxic_Waste"] = true,
   ["Event"] = false,
-  ["Item_Event"] = {},
+  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
   ["Limit"] = 100,
   ["World"] = {
-                ["World"] = "EVENT SAVE",
-                ["Door"] = "ID EVENT SAVE",
-                ["Path"] = 20
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS1",
+                ["Path"] = 8966
               }
 },
 ------------------------
@@ -124,12 +124,12 @@ bot_mode = {
 event = {
   ["Anti_Toxic_Waste"] = true,
   ["Event"] = false,
-  ["Item_Event"] = {},
+  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
   ["Limit"] = 100,
   ["World"] = {
-                ["World"] = "EVENT SAVE",
-                ["Door"] = "ID EVENT SAVE",
-                ["Path"] = 20
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS1",
+                ["Path"] = 8966
               }
 },
 ------------------------
@@ -207,12 +207,12 @@ bot_mode = {
 event = {
   ["Anti_Toxic_Waste"] = true,
   ["Event"] = false,
-  ["Item_Event"] = {},
+  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
   ["Limit"] = 100,
   ["World"] = {
-                ["World"] = "EVENT SAVE",
-                ["Door"] = "ID EVENT SAVE",
-                ["Path"] = 20
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS1",
+                ["Path"] = 8966
               }
 },
 ------------------------
@@ -290,12 +290,12 @@ bot_mode = {
 event = {
   ["Anti_Toxic_Waste"] = true,
   ["Event"] = false,
-  ["Item_Event"] = {},
+  ["Item_Event"] = {1098,1058,1096,1094,7058,1828,10228},
   ["Limit"] = 100,
   ["World"] = {
-                ["World"] = "EVENT SAVE",
-                ["Door"] = "ID EVENT SAVE",
-                ["Path"] = 20
+                ["World"] = "WYPRVOGJSA",
+                ["Door"] = "RQSILBVRWS1",
+                ["Path"] = 8966
               }
 },
 ------------------------
